@@ -93,11 +93,6 @@
           icon: 'mdi-folder-multiple',
           to: '/search',
         },
-        {
-          title: 'share',
-          icon: 'mdi-folder-multiple',
-          to: '/share',
-        },
         /*
         {
           title: 'typography',

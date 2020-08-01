@@ -379,8 +379,7 @@
         this.list[index] = !this.list[index]
       },
       initialize () {
-        this.$http.get('/api/reviews/cntthismonth').then((response) => { this.info.month = response.data })
-        this.$http.get('/api/reviews/cntthisyear').then((response) => { this.info.year = response.data })
+        
       },
     },
   }
